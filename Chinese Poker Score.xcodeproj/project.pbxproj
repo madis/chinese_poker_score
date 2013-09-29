@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2570870717F8967D00F13972 /* CCGameSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 2570870617F8967D00F13972 /* CCGameSession.m */; };
+		2570870917F898BF00F13972 /* CCGameSessionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2570870817F898BF00F13972 /* CCGameSessionTests.m */; };
+		2570870C17F89A1700F13972 /* CCRound.m in Sources */ = {isa = PBXBuildFile; fileRef = 2570870B17F89A1700F13972 /* CCRound.m */; };
 		2597C09317F86D8800E2A253 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2597C09217F86D8800E2A253 /* Foundation.framework */; };
 		2597C09517F86D8800E2A253 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2597C09417F86D8800E2A253 /* CoreGraphics.framework */; };
 		2597C09717F86D8800E2A253 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2597C09617F86D8800E2A253 /* UIKit.framework */; };
@@ -19,6 +22,9 @@
 		2597C0AE17F86D8800E2A253 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2597C09617F86D8800E2A253 /* UIKit.framework */; };
 		2597C0B617F86D8800E2A253 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2597C0B417F86D8800E2A253 /* InfoPlist.strings */; };
 		2597C0B817F86D8800E2A253 /* Chinese_Poker_ScoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2597C0B717F86D8800E2A253 /* Chinese_Poker_ScoreTests.m */; };
+		2597C0C217F86EEB00E2A253 /* GameScores.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2597C0C117F86EEB00E2A253 /* GameScores.storyboard */; };
+		35A8A0E6096049F9858E55C0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC39551BEDAA499FADC21373 /* libPods.a */; };
+		3BAD5B4D5648435198FF5DD2 /* libPods-Chinese Poker ScoreTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06FA885A12154A1F972FE46C /* libPods-Chinese Poker ScoreTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06FA885A12154A1F972FE46C /* libPods-Chinese Poker ScoreTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Chinese Poker ScoreTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1285221A5488411F8A6A0DF7 /* Pods-Chinese Poker ScoreTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chinese Poker ScoreTests.xcconfig"; path = "Pods/Pods-Chinese Poker ScoreTests.xcconfig"; sourceTree = "<group>"; };
+		1E1082C32E144772ADED7B96 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		2570870517F8967D00F13972 /* CCGameSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCGameSession.h; sourceTree = "<group>"; };
+		2570870617F8967D00F13972 /* CCGameSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCGameSession.m; sourceTree = "<group>"; };
+		2570870817F898BF00F13972 /* CCGameSessionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCGameSessionTests.m; sourceTree = "<group>"; };
+		2570870A17F89A1700F13972 /* CCRound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCRound.h; sourceTree = "<group>"; };
+		2570870B17F89A1700F13972 /* CCRound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCRound.m; sourceTree = "<group>"; };
 		2597C08F17F86D8800E2A253 /* Chinese Poker Score.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chinese Poker Score.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2597C09217F86D8800E2A253 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2597C09417F86D8800E2A253 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +62,8 @@
 		2597C0B317F86D8800E2A253 /* Chinese Poker ScoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chinese Poker ScoreTests-Info.plist"; sourceTree = "<group>"; };
 		2597C0B517F86D8800E2A253 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2597C0B717F86D8800E2A253 /* Chinese_Poker_ScoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chinese_Poker_ScoreTests.m; sourceTree = "<group>"; };
+		2597C0C117F86EEB00E2A253 /* GameScores.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GameScores.storyboard; sourceTree = "<group>"; };
+		CC39551BEDAA499FADC21373 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 				2597C09517F86D8800E2A253 /* CoreGraphics.framework in Frameworks */,
 				2597C09717F86D8800E2A253 /* UIKit.framework in Frameworks */,
 				2597C09317F86D8800E2A253 /* Foundation.framework in Frameworks */,
+				35A8A0E6096049F9858E55C0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +85,7 @@
 				2597C0AC17F86D8800E2A253 /* XCTest.framework in Frameworks */,
 				2597C0AE17F86D8800E2A253 /* UIKit.framework in Frameworks */,
 				2597C0AD17F86D8800E2A253 /* Foundation.framework in Frameworks */,
+				3BAD5B4D5648435198FF5DD2 /* libPods-Chinese Poker ScoreTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +99,8 @@
 				2597C0B117F86D8800E2A253 /* Chinese Poker ScoreTests */,
 				2597C09117F86D8800E2A253 /* Frameworks */,
 				2597C09017F86D8800E2A253 /* Products */,
+				1E1082C32E144772ADED7B96 /* Pods.xcconfig */,
+				1285221A5488411F8A6A0DF7 /* Pods-Chinese Poker ScoreTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +120,8 @@
 				2597C09417F86D8800E2A253 /* CoreGraphics.framework */,
 				2597C09617F86D8800E2A253 /* UIKit.framework */,
 				2597C0AB17F86D8800E2A253 /* XCTest.framework */,
+				CC39551BEDAA499FADC21373 /* libPods.a */,
+				06FA885A12154A1F972FE46C /* libPods-Chinese Poker ScoreTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,6 +133,11 @@
 				2597C0A217F86D8800E2A253 /* CCAppDelegate.m */,
 				2597C0A417F86D8800E2A253 /* Images.xcassets */,
 				2597C09917F86D8800E2A253 /* Supporting Files */,
+				2597C0C117F86EEB00E2A253 /* GameScores.storyboard */,
+				2570870517F8967D00F13972 /* CCGameSession.h */,
+				2570870617F8967D00F13972 /* CCGameSession.m */,
+				2570870A17F89A1700F13972 /* CCRound.h */,
+				2570870B17F89A1700F13972 /* CCRound.m */,
 			);
 			path = "Chinese Poker Score";
 			sourceTree = "<group>";
@@ -131,6 +158,7 @@
 			children = (
 				2597C0B717F86D8800E2A253 /* Chinese_Poker_ScoreTests.m */,
 				2597C0B217F86D8800E2A253 /* Supporting Files */,
+				2570870817F898BF00F13972 /* CCGameSessionTests.m */,
 			);
 			path = "Chinese Poker ScoreTests";
 			sourceTree = "<group>";
@@ -151,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2597C0BB17F86D8800E2A253 /* Build configuration list for PBXNativeTarget "Chinese Poker Score" */;
 			buildPhases = (
+				DDED9C8FF17A40BDB3BE1F86 /* Check Pods Manifest.lock */,
 				2597C08B17F86D8800E2A253 /* Sources */,
 				2597C08C17F86D8800E2A253 /* Frameworks */,
 				2597C08D17F86D8800E2A253 /* Resources */,
+				283D753D90E64696963E68CE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2597C0BE17F86D8800E2A253 /* Build configuration list for PBXNativeTarget "Chinese Poker ScoreTests" */;
 			buildPhases = (
+				DD548D5E7347457CA48BD26C /* Check Pods Manifest.lock */,
 				2597C0A617F86D8800E2A253 /* Sources */,
 				2597C0A717F86D8800E2A253 /* Frameworks */,
 				2597C0A817F86D8800E2A253 /* Resources */,
+				94323FB0B6BA46D1957D2B98 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,6 +254,7 @@
 			files = (
 				2597C09D17F86D8800E2A253 /* InfoPlist.strings in Resources */,
 				2597C0A517F86D8800E2A253 /* Images.xcassets in Resources */,
+				2597C0C217F86EEB00E2A253 /* GameScores.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +268,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		283D753D90E64696963E68CE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94323FB0B6BA46D1957D2B98 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Chinese Poker ScoreTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD548D5E7347457CA48BD26C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DDED9C8FF17A40BDB3BE1F86 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2597C08B17F86D8800E2A253 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -242,6 +338,8 @@
 			files = (
 				2597C0A317F86D8800E2A253 /* CCAppDelegate.m in Sources */,
 				2597C09F17F86D8800E2A253 /* main.m in Sources */,
+				2570870C17F89A1700F13972 /* CCRound.m in Sources */,
+				2570870717F8967D00F13972 /* CCGameSession.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2570870917F898BF00F13972 /* CCGameSessionTests.m in Sources */,
 				2597C0B817F86D8800E2A253 /* Chinese_Poker_ScoreTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,6 +458,7 @@
 		};
 		2597C0BC17F86D8800E2A253 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E1082C32E144772ADED7B96 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -372,6 +472,7 @@
 		};
 		2597C0BD17F86D8800E2A253 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E1082C32E144772ADED7B96 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -385,6 +486,7 @@
 		};
 		2597C0BF17F86D8800E2A253 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1285221A5488411F8A6A0DF7 /* Pods-Chinese Poker ScoreTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Chinese Poker Score.app/Chinese Poker Score";
@@ -408,6 +510,7 @@
 		};
 		2597C0C017F86D8800E2A253 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1285221A5488411F8A6A0DF7 /* Pods-Chinese Poker ScoreTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Chinese Poker Score.app/Chinese Poker Score";
@@ -444,6 +547,7 @@
 				2597C0BD17F86D8800E2A253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2597C0BE17F86D8800E2A253 /* Build configuration list for PBXNativeTarget "Chinese Poker ScoreTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +556,7 @@
 				2597C0C017F86D8800E2A253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
